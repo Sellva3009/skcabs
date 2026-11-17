@@ -16,7 +16,7 @@ export const business = {
   // Display-only phone. Keep in sync with whatsappNumber.
   phoneDisplay: "+91 63666 57707",
   phoneTel: "+916366657707",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.example.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://skcabshosur.com",
   operatingHours: "Advance booking recommended. Share your travel date on WhatsApp to check availability.",
   hoursDisplay: "By appointment · Advance booking",
   vehicle: {
