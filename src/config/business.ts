@@ -12,10 +12,10 @@ export const business = {
   description:
     "Chauffeur-driven Maruti Suzuki Ertiga taxi service for local trips, airport transfers, family travel and outstation journeys across Hosur, Krishnagiri, Dharmapuri and Salem.",
   // Replace with the live 10-digit mobile number, country code 91, no plus or spaces.
-  whatsappNumber: "916366657707",
+  whatsappNumber: "919943157707",
   // Display-only phone. Keep in sync with whatsappNumber.
-  phoneDisplay: "+91 63666 57707",
-  phoneTel: "+916366657707",
+  phoneDisplay: "+91 99431 57707",
+  phoneTel: "+919943157707",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://skcabshosur.com",
   operatingHours: "Advance booking recommended. Share your travel date on WhatsApp to check availability.",
   hoursDisplay: "By appointment · Advance booking",
