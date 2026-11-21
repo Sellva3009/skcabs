@@ -1,6 +1,7 @@
 "use client";
 
 import { Clock, MapPin, Phone } from "lucide-react";
+import { InstagramIcon } from "@/components/InstagramIcon";
 import { business } from "@/config/business";
 import { trackPhone } from "@/lib/analytics";
 import { Section, SectionHeading } from "@/components/Section";
@@ -56,6 +57,21 @@ export function Contact() {
             </p>
             <p className="mt-2 text-sm leading-6 text-muted">{business.operatingHours}</p>
           </div>
+          <a
+            href={business.social.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 rounded-2xl border border-line bg-paper p-5 text-navy transition hover:border-gold/50 hover:bg-white"
+            aria-label="Follow SK Cabs on Instagram (opens in a new tab)"
+          >
+            <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-navy text-gold-soft">
+              <InstagramIcon className="h-5 w-5" />
+            </span>
+            <span>
+              <span className="block text-sm font-semibold">Follow SK Cabs on Instagram</span>
+              <span className="mt-0.5 block text-xs text-muted">@skcabshosur</span>
+            </span>
+          </a>
         </aside>
         <div className="rounded-2xl border border-line bg-paper p-5 sm:p-8">
           <h3 className="font-serif text-2xl font-semibold text-navy">Booking enquiry</h3>

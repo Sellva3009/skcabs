@@ -2,6 +2,7 @@ import { business, navigation } from "@/config/business";
 import { serviceAreas } from "@/config/services";
 import { PrimaryWhatsAppCta } from "@/components/WhatsAppButton";
 import { BrandLogo } from "@/components/BrandLogo";
+import { InstagramIcon } from "@/components/InstagramIcon";
 
 async function getCopyrightYear() {
   "use cache";
@@ -55,6 +56,17 @@ export async function Footer() {
             <li>
               <a href={`tel:${business.phoneTel}`} className="hover:text-white">
                 {business.phoneDisplay}
+              </a>
+            </li>
+            <li>
+              <a
+                href={business.social.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-white"
+              >
+                <InstagramIcon className="h-4 w-4" />
+                Instagram
               </a>
             </li>
             <li>{business.hoursDisplay}</li>
